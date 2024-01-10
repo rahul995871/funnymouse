@@ -131,46 +131,8 @@
 
     <!-- home-banner -->
 
-    <div class="section  m-0 p-0 home-border" style="height: 100vh;">
-
-
-<!-- ---------- -->
-
-<div class="myKenburns ">
-    <div class="mySlick">
-        <div class="">
-            
-            <img class=" s-img position-relative" src="./images/home-bg.jpg" alt="slide 1" />
-        </div>
-        <div class="">
-            
-            <img class=" position-relative s-img" src="./images/home1.jpg" alt="slide 2" />
-        </div>
-
-        <div class="">
-            
-            <img class=" position-relative s-img" src="./images/home2.jpg" alt="slide 2" />
-        </div>
-        
-    </div>
-</div>
-
-
-
-<!-- ------------------ -->
-
-
-        <!-- <div class="slider">
-            <div class="position-relative">
-                <div class="c-overlay"></div>
-              <img class="img-fluid" src="./images/home-bg.jpg" alt="">
-            </div>
-            <div class="position-relative">
-                <div class="c-overlay"></div>
-              <img class="img-fluid" src="./images/home1.jpg" alt="">
-            </div>
-          </div> -->
-      
+    <div class="section home-bg m-0 p-0 overflow-visible ">
+      <div class="c-overlay"></div>
       <div class="home-content">
         <h1 class="mb-0" data-aos="fade-up"
         data-aos-offset="200"
@@ -711,15 +673,12 @@ Come visit us today!
   .go();
     </script>
     <script>
-    $('.mySlick').slick({
-        autoplay: true,
-        autoplaySpeed: 4000,
-        arrows: false,
-       
-          dots: false,
-          fade: true,
-          speed: 500
-      });
-    
+      $('.fade').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
     </script>
 </html>
