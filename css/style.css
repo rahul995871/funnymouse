@@ -195,9 +195,14 @@ small{
 /* home */
 
 /* navbar */
+
 /* .dropdown:hover .dropdown-menu {
     display: block;
 } */
+
+.mob-nav{
+  width: 90%!important;
+}
 .nav-link::after{
   content: "";
   position: absolute;
