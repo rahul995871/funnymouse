@@ -1345,7 +1345,7 @@ background: white;
   bottom: 50px;
   top: unset;
   right: 50px;
-  /* z-index: 111111; */
+  z-index: 2;
 }
 .up-down{
   animation: up-down linear 4s;
