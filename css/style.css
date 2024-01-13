@@ -34,10 +34,10 @@ hr {
 @media only screen and (max-width: 768px){
   .navbar img {
     height: 80px !important;
-    width: 100% !important;
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
+    /* width: 100% !important; */
+    display: block!important;
+    max-width: 100%!important;
+    max-height: 100%!important;
   }
 
 }
@@ -51,6 +51,9 @@ hr {
   .navbar img {
     height: 80px !important;
     width: 100% !important;
+    display: block!important;
+    max-width: 100%!important;
+    max-height: 100%!important;
   }
 }
 
@@ -373,9 +376,9 @@ small {
   object-position: center;
   /* padding: 3px; */
   padding: 0px 18px;
-  display: block;
-    max-width: 100%;
-    max-height: 100%;
+  display: block!important;
+  max-width: 100%!important;
+  max-height: 100%!important;
 }
 .c-btn a {
   border: none;
