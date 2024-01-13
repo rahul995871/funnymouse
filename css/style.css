@@ -50,7 +50,7 @@ hr {
   }
   .navbar img {
     height: 80px !important;
-    width: 100% !important;
+    max-width: 100% !important;
     display: block!important;
     max-width: 100%!important;
     max-height: 100%!important;
@@ -64,7 +64,7 @@ hr {
   } */
   .navbar img {
     height: 80px !important;
-    width: 100% !important;
+    max-width: 100% !important;
   }
   .c-navbar {
     top:  0!important;
@@ -371,13 +371,13 @@ small {
 
 .navbar img {
   height: 100%;
-  width: 70%;
+  /* width: 70%; */
   object-fit: cover;
   object-position: center;
   /* padding: 3px; */
   padding: 0px 18px;
   display: block!important;
-  max-width: 100%!important;
+  max-width: 70%;
   max-height: 100%!important;
 }
 .c-btn a {
