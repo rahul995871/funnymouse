@@ -24,14 +24,17 @@ hr {
 }
 
 /* media-queries */
-/* @media only screen and (max-width: 1028px) {
-  .navbar img{
-    height: 80px!important;
-    width: 100%!important;
-    
+@media only screen and (max-width: 1028px) {
+  .home-bg{
+    height: 300px!important;
   }
-} */
+}
+
+
 @media only screen and (max-width: 768px){
+  .home-bg{
+    height: 300px!important;
+  }
   .navbar img {
     height: 80px !important;
     /* width: 100% !important; */
@@ -44,7 +47,9 @@ hr {
 
 
 @media only screen and (max-width: 992px) {
-
+  .home-bg{
+    height: 300px!important;
+  }
   .offcanvas-body .nav-item a {
     color: black !important;
   }
@@ -58,6 +63,7 @@ hr {
 }
 
 @media only screen and (max-width: 767px) {
+  
   /* .ss img{
     height: 300px!important;
     width: 300px!important;
@@ -210,7 +216,7 @@ hr {
 .c-overlay {
   position: absolute;
   background-color: black;
-  opacity: 0.3;
+  opacity: 0.4;
   top: 0;
   width: 100%;
   height: 100%;
