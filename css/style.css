@@ -1946,3 +1946,50 @@ button.link:hover .button-text {
   color: #fff;
 }
 
+/* -------------------------------------------------------faq-page------------------------------------------ */
+.faq-tab{
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+.faq-mouse{
+  
+display: flex;
+  
+height: 100px;
+  
+width: 100px;
+  
+position: absolute;
+  
+top: 4px;
+  
+left: -10px;
+  
+transform: translate(0%,-100%);
+  
+/* z-index: 4; */
+}
+.faq-mouse img{
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  object-position: center;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: var(--third-color)!important;
+  outline: none!important;
+  box-shadow: none!important;
+}
+.accordion-button:focus{
+  box-shadow: none!important;
+}
+/* -------------------------------------------------------faq-page-end------------------------------------------ */
+
+
+
+/* -------------------------------------------------------gallery-page-end------------------------------------------ */
+.gallery-close{
+  
+}
+/* -------------------------------------------------------gallery-page-end------------------------------------------ */
