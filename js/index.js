@@ -11,3 +11,19 @@ $(function() {
     $('#imagemodal').modal('show');   
   });		
 });
+
+
+// scroll
+$('#s-right-btn').click(function() {
+  event.preventDefault();
+  $('#s-move').animate({
+    scrollLeft: "+=600px"
+  }, "slow");
+});
+
+ $('#s-left-btn').click(function() {
+  event.preventDefault();
+  $('#s-move').animate({
+    scrollLeft: "-=600px"
+  }, "slow");
+});
