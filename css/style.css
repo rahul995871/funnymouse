@@ -497,7 +497,7 @@ small {
   top: 0;
   background-color: var(--third-color);
   right: 0;
-  height: 60px;
+  height: 55px;
   width: 45px;
   transform: translate(50%, 0%);
   clip-path: polygon(0 0, 100% 0, 0 100%);
@@ -508,7 +508,7 @@ small {
   bottom: 0;
   background-color: var(--third-color);
   right: 0;
-  height: 60px;
+  height: 55px;
   width: 45px;
   transform: translate(50%, 0%);
   clip-path: polygon(0 0, 100% 100%, 0 100%);
@@ -521,7 +521,7 @@ small {
   background-color: var(--third-color);
   right: 0;
   left: auto;
-  height: 60px;
+  height: 55px;
   width: 45px;
   transform: translate(50%, 0%);
   clip-path: polygon(0 0, 100% 100%, 0 100%);
@@ -533,7 +533,7 @@ small {
   background-color: var(--third-color);
   right: 0;
   left: auto;
-  height: 60px;
+  height: 55px;
   width: 45px;
   transform: translate(50%, 0%);
   clip-path: polygon(0 0, 100% 0, 0 100%);

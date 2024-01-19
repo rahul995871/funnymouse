@@ -6,7 +6,7 @@ $('.navbar .dropdown').hover(function() {
   });
 // navbar-end
 $(function() {
-  $('.pop').on('click', function() {
+  $('.item').on('click', function() {
     $('.imagepreview').attr('src', $(this).find('img').attr('src'));
     $('#imagemodal').modal('show');   
   });		
@@ -27,3 +27,21 @@ $('#s-right-btn').click(function() {
     scrollLeft: "-=600px"
   }, "slow");
 });
+
+$( ".item" ).hover(
+   function() {
+    // $( this ).addClass( "active " );
+    
+    $(".item").addClass('dark-img');
+    $( this ).removeClass( "dark-img " );
+    $( this ).addClass( "dark-active" );
+    
+  },
+  function() {
+
+   $( this ).removeClass( "dark-active " );
+   $(".item").removeClass('dark-img');
+
+  }
+);
+

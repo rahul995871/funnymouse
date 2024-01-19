@@ -40,7 +40,7 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>The Funny Mouse</title>
   </head>
   <body>
@@ -69,228 +69,146 @@
       </a>
     </div>
 
-    <!-- header -->
-    <div class="">
-      <nav
-        class="navbar fixed-top navbar-transparent transparent navbar-expand-md c-navbar py-0 px-md-3 px-0"
-        style="top: 35px"
-      >
+     <!-- header -->
+     <div class="">
+
+      <nav class="navbar fixed-top navbar-transparent transparent navbar-expand-md c-navbar py-0 px-md-3 px-0" style="top: 35px;">
         <div class="container-fluid position-relative">
-          <a class="navbar-brand d-md-none d-block" href="index.html"
-            ><img class="img-fluid" src="./images/logo1.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler custom-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#mob-header"
-            aria-controls="offcanvasDarkNavbar"
-          >
+          <a class="navbar-brand d-md-none d-block" href="index.html"><img class="img-fluid" src="./images/logo1.png" alt=""></a>
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mob-header" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="offcanvas offcanvas-start text-bg-light"
-            tabindex="-1"
-            id="offcanvasDarkNavbar"
-            aria-labelledby="offcanvasDarkNavbarLabel"
-          >
+          <div class="offcanvas offcanvas-start text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header py-0">
-              <a class="navbar-brand" href="index.html"
-                ><img class="img-fluid" src="./images/logo1.png" alt=""
-              /></a>
-              <button
-                type="button"
-                class="btn-close btn-close-dark"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
+                <a class="navbar-brand" href="index.html"><img class="img-fluid" src="./images/logo1.png" alt=""></a>
+              <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body align-items-center">
-              <ul
-                class="w-100 justify-content-center navbar-nav align-items-center mx-auto mb-2 mb-lg-0 gap-md-0 gap-1 nav-fix"
-              >
-                <li class="nav-item nav-item-border">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item nav-item-border dropdown">
-                  <a
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    class="nav-link rounded"
-                    aria-current="page"
-                    href="about.html"
-                    >About Us</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="about.html">Our Story</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="about.html#mission"
-                        >Mission</a
+            <div class="offcanvas-body align-items-center ">
+                <ul class="w-100 justify-content-center navbar-nav align-items-center mx-auto mb-2 mb-lg-0 gap-md-0 gap-1 nav-fix">
+                    <li class="nav-item nav-item-border">
+                      <a class="nav-link active" aria-current="page" href="index.html"
+                        >Home</a
                       >
                     </li>
-                    <li>
-                      <a class="dropdown-item" href="about.html#choose"
-                        >Why choose us
-                      </a>
+                    <li class="nav-item nav-item-border dropdown">
+                      <a data-bs-toggle="dropdown" aria-expanded="false" class="nav-link  rounded" aria-current="page" href="about.html"
+                      >About Us</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="about.html">Our Story</a></li>
+                      <li><a class="dropdown-item" href="about.html#mission">Mission</a></li>
+                      <li><a class="dropdown-item" href="about.html#choose">Why choose us
+                      </a></li>
+                      <li><a class="dropdown-item" href="#">Rules & Regulation
+                      </a></li>
+                    </ul>
+                     
+                      
+                     
                     </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Rules & Regulation </a>
+                    <li class="nav-item   nav-img animate__rubberBand animate__animated my-element"  >
+                      <a   class="p-0" href="index.html"><img  src="./images/logo1.png" alt=""></a>
                     </li>
-                  </ul>
-                </li>
-                <li class="nav-item nav-img">
-                  <a class="p-0" href="index.html"
-                    ><img src="./images/logo1.png" alt=""
-                  /></a>
-                </li>
-                <li class="nav-item nav-item-border dropdown">
-                  <a
-                    class="nav-link rounded"
-                    aria-current="page"
-                    href="services.html"
-                    >Services</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="services.html#activity"
-                        >Activity Center
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="services.html#indoor"
-                        >Indoor Play Arena
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="services.html#party"
-                        >Party Bash
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="services.html#cafe"
-                        >The Cafe
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item nav-item-border">
-                  <a class="nav-link" aria-current="page" href="contact.html"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
+                    <li class="nav-item nav-item-border dropdown">
+                      <a class="nav-link rounded" aria-current="page" href="services.html"
+                        >Services</a
+                      >
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="services.html#activity">Activity Center
+                        </a></li>
+                        <li><a class="dropdown-item" href="services.html#indoor">Indoor Play Arena
+                        </a></li>
+                        <li><a class="dropdown-item" href="services.html#party">Party Bash
 
-              <!-- <div class="c-btn my-3">
-                  <a>Sign In</a>
-                </div> -->
+                        </a></li>
+                        <li><a class="dropdown-item" href="services.html#cafe">The Cafe
+                        </a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item nav-item-border">
+                      <a class="nav-link " aria-current="page" href="contact.html"
+                        >Contact</a
+                      >
+                    </li>
+        
+                  
+                    
+                  </ul>
+              
+                <!-- <div class="c-btn my-3">
+                    <a>Sign In</a>
+                  </div> -->
+              
             </div>
           </div>
         </div>
       </nav>
+
+     
     </div>
 
+
     <div>
-      <div
-        class="offcanvas offcanvas-start mob-nav"
-        tabindex="-1"
-        id="mob-header"
-        aria-labelledby="offcanvasExampleLabel"
-      >
+      
+      <div class="offcanvas offcanvas-start mob-nav" tabindex="-1" id="mob-header" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header py-0">
-          <a class="navbar-brand m-auto py-5" href="index.html"
-            ><img
-              class="img-fluid"
-              src="./images/logo1.png"
-              alt=""
-              style="height: 150px"
-          /></a>
-          <a
-            type="button"
-            class="mob-btn"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-            ><i class="fa-solid fa-circle-xmark"></i
-          ></a>
-        </div>
-        <div class="offcanvas-body align-items-center overflow-hidden">
+          <a class="navbar-brand m-auto py-5" href="index.html"><img class="img-fluid" src="./images/logo1.png" alt="" style="height: 150px;"></a>
+        <a type="button" class="mob-btn" data-bs-dismiss="offcanvas" aria-label="Close" ><i class="fa-solid fa-circle-xmark"></i></a>
+      </div>
+      <div class="offcanvas-body align-items-center overflow-hidden">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-md-5 gap-1 navbar-mob">
-            <li class="nav-item nav-mob">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item nav-item-border dropdown">
-              <a
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                class="nav-link rounded"
-                aria-current="page"
-                href="about.html"
+              
+              
+              <li class="nav-item nav-mob">
+                <a class="nav-link " aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item nav-item-border dropdown nav-mob">
+                <a data-bs-toggle="dropdown" aria-expanded="false" class="nav-link  rounded" aria-current="page" href="about.html"
                 >About Us</a
               >
               <ul class="dropdown-menu mob-off">
-                <li>
-                  <a class="dropdown-item" href="about.html">Our Story</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="about.html#mission">Mission</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="about.html#choose"
-                    >Why choose us
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Rules & Regulation </a>
-                </li>
+                <li><a class="dropdown-item" href="about.html">Our Story</a></li>
+                <li><a class="dropdown-item" href="about.html#mission">Mission</a></li>
+                <li><a class="dropdown-item" href="about.html#choose">Why choose us
+                </a></li>
+                <li><a class="dropdown-item" href="#">Rules & Regulation
+                </a></li>
               </ul>
-            </li>
+               
+                
+               
+              </li>
 
-            <li class="nav-item nav-item-border dropdown">
-              <a
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                class="nav-link rounded"
-                aria-current="page"
-                href="about.html"
+              <li class="nav-item nav-item-border dropdown nav-mob">
+                <a data-bs-toggle="dropdown" aria-expanded="false" class="nav-link  rounded" aria-current="page" href="about.html"
                 >Services</a
               >
               <ul class="dropdown-menu mob-off">
-                <li>
-                  <a class="dropdown-item" href="services.html#activity"
-                    >Activity Center</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="services.html#indoor"
-                    >Indoor Play Arena</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="services.html#party"
-                    >Party Bash
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="services.html#cafe"
-                    >The Cafe
-                  </a>
-                </li>
+                <li><a class="dropdown-item" href="services.html#activity">Activity Center</a></li>
+                <li><a class="dropdown-item" href="services.html#indoor">Indoor Play Arena</a></li>
+                <li><a class="dropdown-item" href="services.html#party">Party Bash
+                </a></li>
+                <li><a class="dropdown-item" href="services.html#cafe">The Cafe
+                </a></li>
               </ul>
-            </li>
-
-            <li class="nav-item nav-mob">
-              <a class="nav-link" aria-current="page" href="contact.html"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
+               
+                
+               
+              </li>
+              
+  
+            
+              <li class="nav-item nav-mob">
+                <a class="nav-link " aria-current="page" href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
+        
+          
+        
+      </div>
       </div>
     </div>
     <!-- header-end -->
