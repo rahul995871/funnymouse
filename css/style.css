@@ -141,7 +141,7 @@ hr {
 /* universal-classes */
 small{
   font-size: 1.1em!important;
-  color: #000000a6;
+  color: #00000091;
 }
 .underline::after {
   content: "";
