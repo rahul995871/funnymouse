@@ -79,3 +79,6 @@ $(document).keydown(function(e){
 });
 
 // ---------------gallery-slider-end---------------------------
+
+
+

@@ -426,6 +426,9 @@ small{
   max-width: 70%;
   max-height: 100% !important;
 }
+.c-btn{
+  z-index: 1111;
+}
 .c-btn a {
   border: none;
   outline: none;
@@ -2115,3 +2118,20 @@ background-color: black;
 
 
 
+
+
+  /* --------------------------------------------------------------------------------------- */
+  /* .side-blob{
+    position: relative;
+  }
+.side-blob::after{
+  content: "";
+  background-color: var(--third-color);
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+
+} */
