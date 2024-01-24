@@ -140,7 +140,8 @@ hr {
 
 /* universal-classes */
 small{
-  font-size: 0.96em!important;
+  font-size: 1.1em!important;
+  color: #000000a6;
 }
 .underline::after {
   content: "";
@@ -291,9 +292,7 @@ small{
   font-size: 18px;
   color: #9e9d9d;
 }
-small {
-  color: #b0abab;
-}
+
 .mob-off {
   width: 100%;
   z-index: 111111111111 !important;
@@ -655,12 +654,12 @@ input {
   /* padding: 60px; */
   border-radius: 50%;
   position: relative;
-  height: 280px;
+  height: 320px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 10px 20px;
   z-index: 11;
   margin-bottom: 20px;
   transition: 0.3s all;
@@ -2112,7 +2111,6 @@ background-color: black;
   background-color: black;
   
   } */
-
 
 
 
