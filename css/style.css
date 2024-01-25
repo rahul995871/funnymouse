@@ -369,10 +369,9 @@ small{
 .dropdown-menu li a {
   transition: 3ms all;
   border: none;
-
   border-bottom: 1px solid var(--third-color);
-
   font-size: 16px;
+  background: transparent;
 }
 .navbar-transparent {
 }
@@ -2121,7 +2120,7 @@ background-color: black;
 
 
   /* --------------------------------------------------------------------------------------- */
-  .side-blob{
+  /* .side-blob{
     position: relative;
   }
 .side-blob::after{
@@ -2135,4 +2134,17 @@ background-color: black;
   right: 10px;
   border: 10px solid var(--third-color);
   border-radius: 7px;
-}
+} */
+/* .story-bg::after{
+  content: "";
+  background-color: transparent;
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 10px;
+  border: 10px solid var(--third-color);
+  border-radius: 7px;
+
+} */
