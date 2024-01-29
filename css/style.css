@@ -2195,6 +2195,7 @@ color: var(--third-color);
 padding: 5px 20px;
 
 border-radius: 4px;
+transition: 0.3s all;
 
 /* background: #fec20b1a; */
 
@@ -2203,6 +2204,11 @@ outline: none;
 text-transform: uppercase;
 
 font-weight: 500;
+}
+.c-outline a:hover{
+  background-color: var(--third-color);
+  color: white;
+
 }
 textarea{
   border: 1px solid #ccc!important;
