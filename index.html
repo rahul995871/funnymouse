@@ -36,6 +36,109 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
+
+<!-- -------------------popup-------------------- -->
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="onload" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="max-width: 40%;">
+    <div class="modal-content">
+      <div class=" modal-c-header text-center mt-4">
+        <div class="text-center ">
+          <div class="d-inline-block">
+            <h3 class="underline d-inline-block position-relative mb-0"><span class="primary-col">Need  
+            </span> <span class="third-col">Help?</span>
+            </h3>
+              <small class=" py-3 d-block">
+                Connect with us Now!
+              </small>
+          </div>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body modal-c-body">
+        <form class="px-4">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby=""
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="email" class="form-label">Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="email"
+                  aria-describedby=""
+                />
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="mb-3">
+                <label for="subject" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="subject"
+                  aria-describedby=""
+                />
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="">
+                <label for="me" class="form-label">Your Message</label>
+                <textarea name="" id="" class="w-100" rows="4"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="c-outline text-center my-3 mb-3 mb-md-0">
+            <a href="#" class="text-decoration-none ">Submit</a>
+          </div>
+        </form>
+      </div>
+      <!-- <div class=" text-center my-5">
+       
+        <div class="c-btn mt-3">
+          <a href="services.html#activity" class="bg-p-col text-decoration-none fs-6">
+            More
+          </a>
+        </div>
+
+      </div> -->
+      <div class="modal-bottom">
+          <a class="d-flex flex-wrap align-items-center justify-content-center text-decoration-none gap-2 text-dark" href="tel:919911002465">
+            <div class="modal-icon">
+              <img src="./images/modal-phone.png" alt="">
+            </div>
+            <p class="m-0">
+              +91-9911002465
+            </p>
+          </a>
+
+          <a class="d-flex flex-wrap align-items-center justify-content-center text-decoration-none gap-2 text-dark" href="https://wa.me/+919911002495?text=Hello!%20I%20would%20know%20more%20about%20your%20services." target="_blank">
+            <div class="modal-icon">
+              <img src="./images/modal-wassp.png" alt="">
+            </div>
+            <p class="m-0">
+              Chat Now!
+            </p>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -------------------popup-end-------------------- -->
+
+
     <div class="social-fixed">
       <a href="https://wa.me/+919911002495?text=Hello!%20I%20would%20know%20more%20about%20your%20services.
       " class="social-icon"  target="blank">
@@ -1167,5 +1270,19 @@ excellent food.
       });
   
   
+    </script>
+    <script type="text/javascript">
+      var popUpShown = false;
+  
+      window.addEventListener('scroll', function() {
+        if (!popUpShown && window.pageYOffset >= 800) {
+          showPopUp();
+          popUpShown = true;
+        }
+      });
+  
+      function showPopUp() {
+        $('#onload').modal('show');
+      }
     </script>
 </html>

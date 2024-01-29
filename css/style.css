@@ -1805,7 +1805,7 @@ width: 450px; */
 
 /* ---------------------------------------services-page-end------------------------------------------------- */
 
-/* ---------------------------------------contact-page-end------------------------------------------------- */
+/* ---------------------------------------contact-page------------------------------------------------- */
 
 .contact-bg {
   background-image: url(../images/contact-bg.jpg);
@@ -1825,10 +1825,11 @@ width: 450px; */
 }
 .c-form input,
 textarea {
-  border: 1px solid #ccc;
+  border: 1px solid #ccc!important;
 
-  border-radius: 4px;
+  border-radius: 4px!important;
 }
+
 
 .contact-icon {
   display: flex;
@@ -2120,31 +2121,92 @@ background-color: black;
 
 
   /* --------------------------------------------------------------------------------------- */
-  /* .side-blob{
-    position: relative;
-  }
-.side-blob::after{
-  content: "";
-  background-color: transparent;
-  width: 60%;
-  height: 100%;
-  position: absolute;
-  display: block;
-  top: 0;
-  right: 10px;
-  border: 10px solid var(--third-color);
-  border-radius: 7px;
-} */
-/* .story-bg::after{
-  content: "";
-  background-color: transparent;
-  width: 60%;
-  height: 100%;
-  position: absolute;
-  display: block;
-  top: 0;
-  right: 10px;
-  border: 10px solid var(--third-color);
-  border-radius: 7px;
 
-} */
+  /* modal-pop-up */
+
+.modal-c-header button{
+
+position: absolute;
+
+top: 2px;
+
+right: 2px;
+}
+
+.modal-bottom{
+
+display: flex;
+
+flex-wrap: wrap;
+
+background: var(--third-color);
+
+justify-content: space-between;
+
+padding: 12px 25px;
+
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+
+}
+.modal-bottom p{
+
+}
+.modal-bottom img{
+  
+height: 100%;
+  
+width: 100%;
+  
+object-fit: cover;
+  
+object-position: center;
+}
+.modal-icon{
+  
+height: 35px;
+  
+width: 35px;
+  
+display: flex;
+  
+background: white;
+  
+border-radius: 50%;
+  
+padding: 8px;
+  
+align-items: center;
+  
+justify-content: center;
+}
+
+.modal-c-body{
+
+}
+.c-outline a{
+
+/* text-decoration: none; */
+
+border: 1px solid var(--third-color);
+
+color: var(--third-color);
+
+padding: 5px 20px;
+
+border-radius: 4px;
+
+/* background: #fec20b1a; */
+
+outline: none;
+
+text-transform: uppercase;
+
+font-weight: 500;
+}
+textarea{
+  border: 1px solid #ccc!important;
+
+  border-radius: 4px!important;
+}
+    /* modal-pop-up-end */
